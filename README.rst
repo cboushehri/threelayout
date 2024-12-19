@@ -254,6 +254,18 @@ useful for tablet typing. If someone with expertise in this domain
 wanted to implement this and submit a PR, that would be very much
 appreciated.
 
+**Help, I'm using Gnome on Wayland and can't configure it to use 3l!**
+
+Some rarely used keyboard layout variants are not available by default when you
+use gnome, ``3l`` is one of them. To enable Gnome's visibility of the ``3l``
+variant run the following in your terminal.::
+    
+    $ gsettings set org.gnome.desktop.input-sources show-all-sources true
+
+Now ``3l`` will be available through the keyboard configuration UI
+
+`Gnome Documentation <https://help.gnome.org/users/gnome-help/stable/keyboard-layouts.html.en>`_
+
 Community
 ---------
 
@@ -303,6 +315,10 @@ you dedicate time to learning, or so you can reach out for learning tips.
 * `Sean Gillespie`__ (who learned ``3l`` in the Spring of 2020)
 * `Uladzislau Khamkou`__ (who learned ``3l`` in the Fall of 2021)
 * `Samuel Clay`__ (who learned ``3l`` in the Spring of 2022)
+* `Liam Abell`__ (who learned ``3l`` in the Fall of 2022)
+* `Byron Sharman`__ (who learned ``3l`` in the Spring of 2024)
+* `Ivan Abramov`__ (who learned ``3l`` in the Spring of 2024)
+* `Jason Robinson`__ (who learned ``3l`` in the Spring of 2024)
 
 __ http://inside.mines.edu/~jrosenth
 __ https://github.com/JoshH100
@@ -319,5 +335,9 @@ __ https://github.com/peterrosenthal
 __ https://github.com/sgillespie
 __ https://github.com/hvod2000
 __ https://github.com/olivethepuffin
+__ https://github.com/labell36
+__ https://github.com/b-sharman
+__ https://github.com/satur4te
+__ https://github.com/Jaso-N7
 
 If you learn the layout, feel free to submit a PR with your name added.
